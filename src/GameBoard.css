@@ -1,0 +1,19 @@
+.game-board {
+    height: 80vh;
+    width: 100vh;
+    display: grid;
+    gap: 0.5rem;
+    border: 4px black;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+
+}
+.game-square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color:black;
+    background-color: aliceblue;
+    font-size: 3.5rem;
+}
